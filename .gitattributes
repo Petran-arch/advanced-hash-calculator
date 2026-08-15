@@ -1,0 +1,13 @@
+# Do not edit manually
+# Text file normalization
+*.sh text eol=lf
+dist/* linguist-vendored
+vendor/* linguist-vendored
+*.map linguist-generated
+
+*.json linguist-detectable=false
+*.yml linguist-detectable=false
+
+public/*.html linguist-vendored
+src/**/*.tsx linguist-detectable
+# eof 52f77da2
